@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Rory Gee | CV</title>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/ab9893dab1.js" crossorigin="anonymous"></script>
+      <!-- Favicon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="theme-color" content="#ffffff">
+      <style>
+         body {
+         background: linear-gradient(180deg, rgba(67,68,68,1) 0%, rgba(60,60,60,1) 50%, rgba(52,52,52,1) 100%);
+         background-size: 100% 150%;
+         }
+         #navigationBar {
+         background: radial-gradient(circle, rgba(67,68,68,1) 0%, rgba(60,60,60,1) 50%, rgba(52,52,52,1) 100%);
+         padding: 10px;
+         box-shadow:0px 0px 7px black;
+         }
+         #bannerBody {
+         background: linear-gradient(-45deg, #44b454, #3cac4c, #3ca44c, #3cb452);
+         background-size: 400% 1000%;
+         animation: gradient 2s ease infinite;
+         }
+         #banner {
+         background: linear-gradient(-45deg, #44b454, #3cac4c, #3ca44c, #3cb452);
+         background-size: 400% 1000%;
+         animation: gradient 2s ease infinite;
+         }
+         #contentCard {
+         padding: 10px;
+         }
+         #innerCard{
+         padding: 10px;
+         }
+         #projectCard{
+         background: radial-gradient(circle, rgba(67,68,68,1) 0%, rgba(60,60,60,1) 50%, rgba(52,52,52,1) 100%);
+         padding: 10px;
+         }
+         @keyframes gradient {
+         0% {
+         background-position: 0% 50%;
+         }
+         50% {
+         background-position: 100% 50%;
+         }
+         100% {
+         background-position: 0% 50%;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container-fluid" id="navigationBar" style="margin-bottom: 15px;">
+         <div class="container">
+            <div class="d-flex align-items-center">
+               <div class="p-2">
+                  <a href="/index.html"><img src="images/tempicon.png" alt="G logo" width="40px"></a>
+               </div>
+               <div class="p-2">
+                  <div class="btn-group" role="group" aria-label="Basic example" style="justify-content: right;">
+                     <a role="button" class="btn btn btn-outline-light" href="/projects.html"> Projects</a>
+                     <a role="button" class="btn btn btn-outline-light" href="/blog.html"> Blog</a>
+                     <a role="button" class="btn btn btn-outline-light" href="/aboutGee.html"> About Me</a>
+                     <a role="button" class="btn btn btn-outline-light" href="/curriculumVitae.html">CV</a>
+                  </div>
+               </div>
+               <div class="ml-auto p-2">
+                  <div class="btn-group" role="group" aria-label="Basic example" >
+                     <a role="button" class="btn btn btn-outline-light" href="https://www.linkedin.com/in/rorygee/"> <i class="fab fa-linkedin"></i> LinkedIn</a>
+                     <a role="button" class="btn btn btn-outline-light" href="https://github.com/rorygee"> <i class="fab fa-github-alt"></i> Github</a>
+                     <a role="button" class="btn btn btn-outline-light" href="https://soundcloud.com/roreh"> <i class="fas fa-fire"></i> Soundcloud</a>
+                     <a role="button" class="btn btn btn-outline-light" href="https://www.twitch.tv/rorygee"> <i class="fab fa-twitch"></i> Twitch</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <div class="container" id="contentCard">
+        <div class="card" id="banner">
+          <div class="card-header" id="bannerBody">
+             <h5 class="text-light">Curriculum Vitae</h5>
+          </div>
+          <div class="card-body" id="innerCard">
+             <div class="container">
+                <div class="card" id="projectCard">
+                   <div class="card-header">
+                      <h5 class="text-light">Personal Summary</h5>
+                   </div>
+                   <div class="card-body">
+                      <p class="text-light">A graduate in Computer Science seeking an analytical or development role in an innovative and forward-thinking organisation. Choice of university modules centred around a combination of technical knowledge, requirements elicitation and wider business functions. </p>
+                   </div>
+                </div>
+             </div>
+          </div>
+
+          <div class="card-body" id="innerCard">
+             <div class="container">
+                <div class="card" id="projectCard">
+                   <div class="card-header">
+                      <h5 class="text-light">Education</h5>
+                   </div>
+                   <div class="card-body">
+                      <h5 class="text-light">Keele University (2016-2020)</h5>
+                       <p class="text-light">BSc Computer Science - 2:2</p>
+                      <p class="text-light">A BCS (British Computing Society) accredited bachelors course following a foundation year. Technical skills developed during the course include web/application development, database management, networking and user interface design. An interest in monetary systems in addition to the wider application of software development in emerging fields is also expressed with the optional modules chosen.</p>
+                        <p class="text-light">During this course, software development was undertaken for either module coursework or projects, building knowledge and experience in languages that include Java, Python, C and C++.</p>
+                   </div>
+                </div>
+             </div>
+          </div>
+           <div class="card-body" id="innerCard">
+             <div class="container">
+                <div class="card" id="projectCard">
+                   <div class="card-header">
+                      <h5 class="text-light">Previous Experience / Employment</h5>
+                   </div>
+                   <div class="card-body">
+                      <h5 class="text-light">Keele University</h5>
+                      <p class="text-light"><strong>Student Ambassador</strong> (School of Computing and Mathematics, 2019)</p>
+                      <p class="text-light">Represented the school during open days, speaking to prospective students about the courses available at the school. Additionally, helping inform attendees on what they would like to study based on their interests and goals, drawing from my personal experience with the university.</p>
+                      <hr>
+                      <p class="text-light"><strong>Social Secretary</strong> (HACK Keele; Computer Science Society, 2019-2020)</p>
+                      <p class="text-light">Main responsibilities were to advertise events, in addition to some organisational and operational tasks. Some of these included hackathon events, where attendees were tasked to write a software project under a 12-hour time constraint in addition to bi-weekly socials. During this time partnerships with IBM and the local Linux User Group were established in addition to maintaining partnerships with Bet365 and Major League Hacking.</p>
+                      <hr>
+                      <h5 class="text-light">The Open University</h5>
+                      <p class="text-light"><strong>Software Consultant</strong> (2015)</p>
+                      <p class="text-light">Helped develop a data science tool in Python aiding in the gathering, storing and processing of social media data intended to produce research for a third party. Familiarity with MongoDB, Requests, RESTful APIs and regular expressions were developed during this time.</p>
+                      <hr>
+                   </div>
+                </div>
+             </div>
+           </div>
+
+
+
+          </div>
+      </div>
+      <hr>
+      <!-- Footer -->
+      <div class="container">
+         <div class="row align-items-center" style="justify-content: center;">
+            <p class="text-light">Rory Gee | 2020</p>
+         </div>
+      </div>
+   </body>
+</html>

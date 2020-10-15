@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Rory Gee | Index</title>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/ab9893dab1.js" crossorigin="anonymous"></script>
+      <!-- Favicon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="theme-color" content="#ffffff">
+      <style>
+         body {
+         background: linear-gradient(180deg, rgba(67,68,68,1) 0%, rgba(60,60,60,1) 50%, rgba(52,52,52,1) 100%);
+         background-size: 100% 150%;
+         }
+         #navigationBar {
+         background: radial-gradient(circle, rgba(67,68,68,1) 0%, rgba(60,60,60,1) 50%, rgba(52,52,52,1) 100%);
+         padding: 10px;
+         box-shadow:0px 0px 7px black;
+         }
+         #bannerBody {
+         background: linear-gradient(-45deg, #44b454, #3cac4c, #3ca44c, #3cb452);
+         background-size: 400% 1000%;
+         animation: gradient 2s ease infinite;
+         }
+         #banner {
+         background: linear-gradient(-45deg, #44b454, #3cac4c, #3ca44c, #3cb452);
+         background-size: 400% 1000%;
+         animation: gradient 2s ease infinite;
+         }
+         #contentCard {
+         padding: 10px;
+         }
+         #innerCard{
+         padding: 10px;
+         }
+         #projectCard{
+         background: radial-gradient(circle, rgba(67,68,68,1) 0%, rgba(60,60,60,1) 50%, rgba(52,52,52,1) 100%);
+         padding: 10px;
+         }
+         @keyframes gradient {
+         0% {
+         background-position: 0% 50%;
+         }
+         50% {
+         background-position: 100% 50%;
+         }
+         100% {
+         background-position: 0% 50%;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container-fluid" id="navigationBar" style="margin-bottom: 15px;">
+         <div class="container">
+            <div class="d-flex align-items-center">
+               <div class="p-2">
+                  <a href="/index.html"><img src="images/tempicon.png" alt="G logo" width="40px"></a>
+               </div>
+               <div class="p-2">
+                  <div class="btn-group" role="group" aria-label="Basic example" style="justify-content: right;">
+                     <a role="button" class="btn btn btn-outline-light" href="/projects.html"> Projects</a>
+                     <a role="button" class="btn btn btn-outline-light" href="/blog.html"> Blog</a>
+                     <a role="button" class="btn btn btn-outline-light" href="/aboutgee"> About Me</a>
+                     <a role="button" class="btn btn btn-outline-light dropdown-toggle" href="#"> Employers</a>
+                  </div>
+               </div>
+               <div class="ml-auto p-2">
+                  <div class="btn-group" role="group" aria-label="Basic example" >
+                     <a role="button" class="btn btn btn-outline-light" href="https://www.linkedin.com/in/rorygee/"> <i class="fab fa-linkedin"></i> LinkedIn</a>
+                     <a role="button" class="btn btn btn-outline-light" href="https://github.com/rorygee"> <i class="fab fa-github-alt"></i> Github</a>
+                     <a role="button" class="btn btn btn-outline-light" href="https://soundcloud.com/roreh"> <i class="fas fa-fire"></i> Soundcloud</a>
+                     <a role="button" class="btn btn btn-outline-light" href="https://www.twitch.tv/rorygee"> <i class="fab fa-twitch"></i> Twitch</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <div class="container" id="contentCard">
+         <div class="card" id="banner">
+            <div class="card-header" id="bannerBody">
+               <h5 class="text-light">Blog</h5>
+            </div>
+            <div class="card-body" id="bannerBody">
+               <div class="card" id="projectCard">
+                <div class="card-header">
+                   <h5 class="text-light">Welcome!</h5>
+                </div>
+                <div class="card-body">
+                   <p class="text-light">
+                      So this should be the first post on this site! I hope this goes okay as this is technically the first time I have actually put something like this together.
+                   </p>
+                   <button type="button" class="btn btn-sm btn-outline-light"> View full post...</button>
+                </div>
+             </div>
+           </div>
+         </div>
+      </div>
+      <hr>
+      <!-- Footer -->
+      <div class="container">
+         <div class="row align-items-center" style="justify-content: center;">
+            <p class="text-light">Rory Gee | 2020</p>
+         </div>
+      </div>
+   </body>
+</html>
